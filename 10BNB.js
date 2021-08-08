@@ -1,6 +1,3 @@
-//ipfs://QmcdBFQDxD8UG7rsa7D5TPoZ785AjneWzf4F4w8dje4pDV
-
-
 pragma solidity ^0.5.0;
 
 // Multiplier-Finance Smart Contracts
